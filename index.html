@@ -1,68 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Blogging</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--Custom Style -->
-        <link href="./css/style.css" rel="stylesheet">
-    </head>
-    <body>
-        <!------------------------------------------------------- Navigation ---------------------------------------------------------->
 
-        <nav class="nav">
-            <div class="nav-menu flex-row">
-                <div class="nav-brand">
-                    <a href="#" class="text-gray">Blooger </a>
-                </div>
-                <div class="toggle-collapse">
-                    <div class="toggle-icons">
-                        <i class="fas fa-bars">
+<head>
+    <title>Blogging</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+    <!---------------owl-carousel---------------->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-                        </i>
-                    </div>
-                </div>
-                <div>
-                    <ul class="nav-items">
-                        <li class="nav-link">
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="nav-link">
-                            <a href="#">Category</a>
-                        </li>
-                        <li class="nav-link">
-                            <a href="#">Archive</a>
-                        </li>
-                        <li class="nav-link">
-                            <a href="#">Pages</a>
-                        </li>
-                        <li class="nav-link">
-                            <a href="#">contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="social text-gray">
-                    <a href="#"><i class="fa-brands fa-facebook"></i> </a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+    <!--Custom Style -->
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!------------------------------------------------------- Navigation ---------------------------------------------------------->
+
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="#" class="text-gray">Blooger </a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars">
+
+                    </i>
                 </div>
             </div>
-        </nav>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Category</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Archive</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Pages</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="social text-gray">
+                <a href="#"><i class="fa-brands fa-facebook"></i> </a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </nav>
 
+    <!-------------------------------x------------------------ Navigation ----------------------------------x------------------------>
 
+    <!------------------ Main site section --------------------->
 
+    <main>
 
+        <!------------------- site title--------------------- -->
+        <section class="site-title">
+            <div class="site-background">
+                <h3>Tours & Travels</h3>
+                <h1>Amazing Place on Earth</h1>
+                <button class="btn">Explore</button>
+            </div>
+        </section>
+        <!----------x--------- site title----------------x----- -->
+        <!----------------------Blog Carousel------------------------------->
 
+        <section>
+            <div class="blog">
+                <div class="container">
+                    <div class="owl-carousel owl-theme blog-post">
+                        <div class="blog-content">
+                            <img src="assets/Blog-post/post-1.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>london Fashion week's continued the evolution</h3>
+                                <button class="btn btn-blog">Fashion</button>
+                                <span>2 minutes</span>
+                            </div>
+                        </div><div class="blog-content">
+                            <img src="assets/Blog-post/post-2.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>london Fashion week's continued the evolution</h3>
+                                <button class="btn btn-blog">Fashion</button>
+                                <span>2 minutes</span>
+                            </div>
+                        </div><div class="blog-content">
+                            <img src="assets/Blog-post/post-3.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>london Fashion week's continued the evolution</h3>
+                                <button class="btn btn-blog">Fashion</button>
+                                <span>2 minutes</span>
+                            </div>
+                        </div><div class="blog-content">
+                            <img src="assets/Blog-post/post-4.png" alt="post-1">
+                            <div class="blog-title">
+                                <h3>london Fashion week's continued the evolution</h3>
+                                <button class="btn btn-blog">Fashion</button>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!----------------------Blog Carousel------------------------------->
 
-                <!-------------------------------x------------------------ Navigation ----------------------------------x------------------------>
+    
+    
+    
+    </main>
 
-        
+    <!--------x---------- Main site section ------------x--------->
+    <!--Jquery Library File -->
+    <script src="js/jquery3.7.0.min.js"></script>
 
-        <!--Custome Javascript File -->
-        <script src="./js/main.js"></script>
-        <!-----------font awesome------------>
-        <script src="https://kit.fontawesome.com/67547a5ca8.js" crossorigin="anonymous"></script>
-    </body>
+        <!---------------owl-carousel---------------->
+        <script src="js/owl.carousel.min.js"></script>
+
+    <!--Custome Javascript File -->
+    <script src="./js/main.js"></script>
+    <!-----------font awesome------------>
+    <script src="https://kit.fontawesome.com/67547a5ca8.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
